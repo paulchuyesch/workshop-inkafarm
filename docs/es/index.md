@@ -5,9 +5,6 @@ hero:
   name: "Workshop InkaFarm"
   text: "Spec-Driven Development y Agentes"
   tagline: "Aprende desde el uso práctico de ChatGPT Work y creación de Skills, hasta interfaces interactivas en Lovable y agentes autónomos."
-  image:
-    src: /hero-image.jpg
-    alt: InkaFarm Hero
   actions:
     - theme: brand
       text: Iniciar Taller

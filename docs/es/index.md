@@ -1,9 +1,30 @@
-# Workshop InkaFarm
+---
+layout: home
 
-**Categoría:** Taller · Beginner | **Formato:** Video | **Duración:** 10 pasos | **Precio:** Gratis
+hero:
+  name: "Workshop InkaFarm"
+  text: "Spec-Driven Development y Agentes"
+  tagline: "Aprende desde el uso práctico de ChatGPT Work y creación de Skills, hasta interfaces interactivas en Lovable y agentes autónomos."
+  image:
+    src: /hero-image.jpg
+    alt: InkaFarm Hero
+  actions:
+    - theme: brand
+      text: Iniciar Taller
+      link: ./lectures/lecture-01-introduccion-a-chatgpt-work/
+    - theme: alt
+      text: Ver Proyectos
+      link: ./projects/
 
-Bienvenido al **Workshop InkaFarm**. En este taller aprenderás desde el uso práctico de ChatGPT Work y creación de Skills de análisis de datos, hasta el desarrollo guiado por especificaciones (Spec-Driven Development), interfaces interactivas en Lovable y creación de agentes autónomos.
-
+features:
+  - title: 🏷️ Categoría
+    details: Taller · Beginner
+  - title: 🎬 Formato
+    details: Video Interactivo
+  - title: ⏳ Duración
+    details: 10 pasos guiados
+  - title: 💳 Precio
+    details: Gratis
 ---
 
 ## Índice de Pasos

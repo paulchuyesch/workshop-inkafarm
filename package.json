@@ -5,10 +5,10 @@
   "description": "Documentación oficial del Workshop InkaFarm creada con VitePress.",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --port 5173",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --port 5173",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "lecture:run": "tsx",

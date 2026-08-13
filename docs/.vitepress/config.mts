@@ -92,7 +92,11 @@ const createLocaleTheme = (
       next: labels.next || "Siguiente"
     },
     lastUpdated: {
-      text: labels.lastUpdated || "Última actualización"
+      text: labels.lastUpdated || "Última actualización",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "short"
+      }
     },
     returnToTopLabel: labels.returnToTop || "Volver arriba",
     sidebarMenuLabel: labels.sidebarMenu || "Menú",

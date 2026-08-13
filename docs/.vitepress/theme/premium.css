@@ -1,5 +1,9 @@
 /* ===== Premium Home Design ===== */
-
+.premium-container {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
 .premium-home {
   --ph-brand: #00C88C;
   --ph-brand-gradient: linear-gradient(135deg, #00C88C 0%, #009B6C 100%);

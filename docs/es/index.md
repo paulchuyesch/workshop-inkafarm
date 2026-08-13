@@ -1,8 +1,10 @@
 ---
-layout: doc
+layout: page
 pageClass: premium-home
 sidebar: false
 ---
+
+<div class="premium-container">
 
 <div class="premium-hero-container">
   <div class="ambient-glow orb-1"></div>
@@ -81,4 +83,6 @@ sidebar: false
     <h3>10. Plan de adopción</h3>
     <p>Diseña un plan estratégico de adopción de IA de 30 días para tu equipo.</p>
   </a>
+</div>
+
 </div>

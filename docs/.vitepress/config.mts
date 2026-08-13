@@ -25,7 +25,9 @@ const esProjectItems = [
 ];
 
 const esResourceItems = [
-  { text: "Resumen", link: "/es/resources/" }
+  { text: "Resumen de Recursos", link: "/es/resources/" },
+  { text: "Catálogo de Datasets", link: "/es/resources/datasets/" },
+  { text: "Plantillas y Prompts", link: "/es/resources/templates/" }
 ];
 
 const esSkillItems = [

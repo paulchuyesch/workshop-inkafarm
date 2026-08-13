@@ -12,7 +12,7 @@ Harás tres experimentos progresivos: primero dibujarás el loop maker-checker d
 
 ## Herramientas Que Usarás
 
-- Claude Code o Codex
+- ChatGPT Code o Codex
 - Git
 - El loop maker-checker que construiste en P07 (o cualquier flujo de trabajo de agente que puedas ejecutar repetidamente)
 - Un editor de texto o una herramienta de diagramas (dibujar no es para que se vea bonito — es para dejar la estructura escrita con claridad; tanto `mermaid` como un `graph.md` escrito a mano valen)

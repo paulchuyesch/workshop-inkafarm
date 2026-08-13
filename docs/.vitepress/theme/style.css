@@ -1,9 +1,9 @@
-/* ===== Learn Harness Engineering — Custom VitePress Styles ===== */
+/* ===== Workshop InkaFarm — Custom VitePress Styles ===== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
 
 /* ---------- CSS Variables (Light) ---------- */
 :root {
-  /* Anthropic / Claude Docs Style Colors */
+  /* ChatGPT Docs Style Colors */
   --vp-c-bg: #FAF9F5;
   --vp-c-bg-alt: #F4F3EE;
   --vp-c-bg-elv: #FFFFFF;
@@ -13,11 +13,11 @@
   --vp-c-text-2: #4A4A4A;
   --vp-c-text-3: #757575;
   
-  /* Brand - Orange */
-  --vp-c-brand-1: #D95C41;
-  --vp-c-brand-2: #C14E36;
-  --vp-c-brand-3: #A8412B;
-  --vp-c-brand-soft: rgba(217, 92, 65, 0.1);
+  /* Brand - Mint Green (Verde Menta) */
+  --vp-c-brand-1: #00C88C;
+  --vp-c-brand-2: #00B37D;
+  --vp-c-brand-3: #009B6C;
+  --vp-c-brand-soft: rgba(0, 200, 140, 0.12);
 
   /* Sidebar */
   --vp-sidebar-width: 296px;
@@ -33,24 +33,24 @@
   --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
 }
 
-/* ---------- Dark mode overrides (Anthropic style dark mode if needed) ---------- */
+/* ---------- Dark mode overrides (Deep Slate-Teal Dark, not pure black) ---------- */
 .dark {
-  --vp-c-bg: #1A1A1A;
-  --vp-c-bg-alt: #141414;
-  --vp-c-bg-elv: #242424;
-  --vp-c-bg-soft: #141414;
+  --vp-c-bg: #0B1E1C;
+  --vp-c-bg-alt: #071514;
+  --vp-c-bg-elv: #132C2A;
+  --vp-c-bg-soft: #0F2523;
 
-  --vp-c-text-1: #E5E5E5;
-  --vp-c-text-2: #B3B3B3;
-  --vp-c-text-3: #808080;
+  --vp-c-text-1: #E6F8F5;
+  --vp-c-text-2: #94A3B8;
+  --vp-c-text-3: #64748B;
   
-  --vp-c-brand-1: #E07A64;
-  --vp-c-brand-2: #D95C41;
-  --vp-c-brand-3: #C14E36;
-  --vp-c-brand-soft: rgba(224, 122, 100, 0.15);
+  --vp-c-brand-1: #00E699;
+  --vp-c-brand-2: #10B981;
+  --vp-c-brand-3: #059669;
+  --vp-c-brand-soft: rgba(0, 230, 153, 0.15);
 
-  --vp-sidebar-bg-color: #141414;
-  --vp-nav-bg-color: #1A1A1A;
+  --vp-sidebar-bg-color: #071514;
+  --vp-nav-bg-color: #0B1E1C;
   --vp-c-divider: rgba(255, 255, 255, 0.1);
 }
 
@@ -196,7 +196,7 @@
 
 .VPFeature:hover {
   border-color: var(--vp-c-brand-1) !important;
-  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 200, 140, 0.18) !important;
   transform: translateY(-2px) !important;
 }
 
@@ -242,14 +242,14 @@
 }
 
 .VPSidebar .VPSidebarItem .item .link:hover {
-  color: var(--vp-c-text-1) !important;
-  background-color: rgba(0, 0, 0, 0.04) !important;
+  color: var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-brand-soft) !important;
 }
 
 .VPSidebar .VPSidebarItem.is-active > .item > .link {
-  color: var(--vp-c-text-1) !important;
+  color: var(--vp-c-brand-1) !important;
   font-weight: 600 !important;
-  background-color: rgba(0, 0, 0, 0.06) !important;
+  background-color: var(--vp-c-brand-soft) !important;
 }
 
 .VPSidebar .VPSidebarItem.is-active > .item > .link::before {
@@ -257,11 +257,13 @@
 }
 
 .dark .VPSidebar .VPSidebarItem .item .link:hover {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(0, 230, 153, 0.12) !important;
+  color: var(--vp-c-brand-1) !important;
 }
 
 .dark .VPSidebar .VPSidebarItem.is-active > .item > .link {
-  background-color: rgba(255, 255, 255, 0.08) !important;
+  background-color: rgba(0, 230, 153, 0.16) !important;
+  color: var(--vp-c-brand-1) !important;
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
@@ -363,9 +365,9 @@
 
 /* Nav Logo Fix */
 .VPNavBarTitle .logo {
-  height: 28px;
-  width: 28px;
-  margin-right: 2px;
+  height: 34px;
+  width: 34px;
+  margin-right: 4px;
   border-radius: 0;
 }
 
@@ -387,68 +389,70 @@
   align-items: center;
 }
 
-/* Nav Action Button (Try Harness) */
-.VPNavBarMenuLink[href*="learn-harness-engineering/blob/main/docs/"] {
-  background-color: #1A1A1A !important;
-  color: #FFFFFF !important;
+/* Nav Action Button */
+.VPNavBarMenuLink[href*="workshop-inkafarm/blob/main/docs/"] {
+  background-color: #00C88C !important;
+  color: #051915 !important;
+  font-weight: 600 !important;
   border-radius: 20px !important;
   padding: 0 16px !important;
   margin: 0 4px 0 12px !important;
   height: 36px !important;
   line-height: 1 !important;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
   display: flex !important;
   align-items: center;
   justify-content: center;
   align-self: center;
 }
 
-.VPNavBarMenuLink[href*="learn-harness-engineering/blob/main/docs/"]:hover {
-  background-color: #333333 !important;
+.VPNavBarMenuLink[href*="workshop-inkafarm/blob/main/docs/"]:hover {
+  background-color: #00B37D !important;
   color: #FFFFFF !important;
 }
 
-.dark .VPNavBarMenuLink[href*="learn-harness-engineering/blob/main/docs/"] {
-  background-color: #E5E5E5 !important;
-  color: #1A1A1A !important;
+.dark .VPNavBarMenuLink[href*="workshop-inkafarm/blob/main/docs/"] {
+  background-color: #00E699 !important;
+  color: #061816 !important;
 }
 
-.dark .VPNavBarMenuLink[href*="learn-harness-engineering/blob/main/docs/"]:hover {
-  background-color: #FFFFFF !important;
-  color: #1A1A1A !important;
+.dark .VPNavBarMenuLink[href*="workshop-inkafarm/blob/main/docs/"]:hover {
+  background-color: #34D399 !important;
+  color: #061816 !important;
 }
 
-.VPNavBarMenuLink[href*="learn-harness-engineering/blob/main/docs/"]::after {
+.VPNavBarMenuLink[href*="workshop-inkafarm/blob/main/docs/"]::after {
   display: none !important;
 }
 
-.VPNavBarMenuLink:not([href*="learn-harness-engineering/blob/main/docs/"]):hover {
-  color: var(--vp-c-text-1) !important;
+.VPNavBarMenuLink:not([href*="workshop-inkafarm/blob/main/docs/"]):hover {
+  color: var(--vp-c-brand-1) !important;
   background-color: transparent !important;
 }
 
-.VPNavBarMenuLink.active:not([href*="learn-harness-engineering/blob/main/docs/"]) {
-  color: var(--vp-c-text-1) !important;
+.VPNavBarMenuLink.active:not([href*="workshop-inkafarm/blob/main/docs/"]) {
+  color: var(--vp-c-brand-1) !important;
 }
 
-.VPNavBarMenuLink.active:not([href*="learn-harness-engineering/blob/main/docs/"])::after {
+.VPNavBarMenuLink.active:not([href*="workshop-inkafarm/blob/main/docs/"])::after {
   content: '';
   position: absolute;
   bottom: -1px;
   left: 0;
   right: 0;
   height: 2px;
-  background-color: var(--vp-c-text-1);
+  background-color: var(--vp-c-brand-1);
 }
 
-.dark .VPNavBarMenuLink.active:not([href*="learn-harness-engineering/blob/main/docs/"]) {
+.dark .VPNavBarMenuLink.active:not([href*="workshop-inkafarm/blob/main/docs/"]) {
   background-color: transparent !important;
 }
 
-/* GitHub Black Button */
+/* GitHub Button */
 .VPNavBarSocialLink {
-  background-color: #1A1A1A !important;
-  color: #FFFFFF !important;
+  background-color: #132C2A !important;
+  color: var(--vp-c-brand-1) !important;
+  border: 1px solid rgba(0, 200, 140, 0.25);
   border-radius: 20px;
   padding: 0 16px 0 12px !important;
   height: 32px !important;
@@ -457,11 +461,12 @@
   align-items: center;
   text-decoration: none;
   gap: 6px;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .VPNavBarSocialLink:hover {
-  background-color: #333333 !important;
+  background-color: var(--vp-c-brand-1) !important;
+  color: #051915 !important;
 }
 
 .VPNavBarSocialLink::after {
@@ -473,12 +478,14 @@
 }
 
 .dark .VPNavBarSocialLink {
-  background-color: #E5E5E5 !important;
-  color: #1A1A1A !important;
+  background-color: #132C2A !important;
+  color: #00E699 !important;
+  border: 1px solid rgba(0, 230, 153, 0.3);
 }
 
 .dark .VPNavBarSocialLink:hover {
-  background-color: #FFFFFF !important;
+  background-color: #00E699 !important;
+  color: #061816 !important;
 }
 
 @media (min-width: 768px) {

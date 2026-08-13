@@ -14,7 +14,7 @@ El inicializador debería dejar atrás al menos estos artefactos:
 
 - un archivo de instrucciones raíz como `AGENTS.md` o `CLAUDE.md`
 - una superficie de características legible por máquina como `feature_list.json`
-- un artefacto de progreso duradero como `claude-progress.md`
+- un artefacto de progreso duradero como `chatgpt-progress.md`
 - un ayudante de inicio estándar como `init.sh`
 - un commit seguro inicial que capture el scaffold de referencia
 

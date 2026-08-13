@@ -101,8 +101,8 @@ async function buildLanguagePdf(
 ) {
   const pages = await discoverCoursePages(language)
   const tempLanguageDir = path.join(tempRoot, language)
-  const outputPdf = path.join(pdfOutputRoot, `learn-harness-engineering-${language}.pdf`)
-  const manifestPath = path.join(pdfOutputRoot, `learn-harness-engineering-${language}.json`)
+  const outputPdf = path.join(pdfOutputRoot, `workshop-inkafarm-${language}.pdf`)
+  const manifestPath = path.join(pdfOutputRoot, `workshop-inkafarm-${language}.json`)
 
   await fs.rm(tempLanguageDir, { recursive: true, force: true })
   await ensureDirectory(tempLanguageDir)
@@ -229,7 +229,7 @@ async function renderCoverPage(
           </style>
         </head>
         <body>
-          <h1>Learn Harness Engineering</h1>
+          <h1>Workshop InkaFarm</h1>
           <p class="meta">${languageLabel} coursebook PDF · generated ${generatedAt}</p>
           <h2>Included sections</h2>
           <ol>${contents}</ol>

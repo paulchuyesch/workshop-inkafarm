@@ -59,7 +59,7 @@ The required artifacts in this solution are:
 - `scripts/check-architecture.sh`: boundary guard
 - `clean-state-checklist.md`: pre-commit repository health check
 
-Do not assume `feature_list.json`, `claude-progress.md`, `init.sh`, or
+Do not assume `feature_list.json`, `chatgpt-progress.md`, `init.sh`, or
 `session-handoff.md` exist in this project. Those artifacts are introduced in
 other project stages.
 

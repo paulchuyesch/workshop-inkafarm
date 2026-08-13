@@ -5,23 +5,7 @@ layout: page
 <script setup>
 if (typeof window !== 'undefined') {
   const base = import.meta.env.BASE_URL || '/'
-  const lang = navigator.language || navigator.languages?.[0] || ''
-  let locale = 'en/'
-  if (lang.startsWith('ko')) locale = 'ko/'
-  else if (lang.toLowerCase().startsWith('zh-tw') || lang.toLowerCase().startsWith('zh-hk') || lang.toLowerCase().startsWith('zh-mo')) locale = 'zh-TW/'
-  else if (lang.toLowerCase().startsWith('pt-br')) locale = 'pt-BR/'
-  else if (lang.startsWith('zh')) locale = 'zh/'
-  else if (lang.startsWith('ru')) locale = 'ru/'
-  else if (lang.startsWith('vi')) locale = 'vi/'
-  else if (lang.startsWith('uz')) locale = 'uz/'
-  else if (lang.startsWith('ja')) locale = 'ja/'
-  else if (lang.startsWith('es')) locale = 'es/'
-  else if (lang.startsWith('fr')) locale = 'fr/'
-  else if (lang.startsWith('de')) locale = 'de/'
-  else if (lang.startsWith('ar')) locale = 'ar/'
-  else if (lang.startsWith('uk')) locale = 'uk/'
-  else if (lang.startsWith('tr')) locale = 'tr/'
-  
+  const locale = 'es/'
   const target = `${base}${locale}`
   if (!window.location.pathname.replace(/\/$/, '').endsWith(target.replace(/\/$/, ''))) {
     window.location.replace(target)
@@ -57,6 +41,6 @@ if (typeof window !== 'undefined') {
 <div class="redirecting-wrapper">
   <div style="text-align: center;">
     <div class="spinner"></div>
-    <p>Loading...</p>
+    <p>Cargando...</p>
   </div>
 </div>

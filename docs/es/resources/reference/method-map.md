@@ -5,7 +5,7 @@ al artefacto o regla operacional que usualmente los corrige primero.
 
 | Modo de fallo | Cómo se ve en la práctica | Corrección principal | Artefacto de soporte |
 | --- | --- | --- | --- |
-| Confusión de inicio en frío | Una sesión nueva pasa la mayor parte de su tiempo redescubriendo la configuración y el estado | Hacer del repositorio el sistema de registro | `claude-progress.md` |
+| Confusión de inicio en frío | Una sesión nueva pasa la mayor parte de su tiempo redescubriendo la configuración y el estado | Hacer del repositorio el sistema de registro | `chatgpt-progress.md` |
 | Expansión de alcance | El agente comienza varias características y no termina ninguna limpiamente | Restringir el alcance activo | `feature_list.json` |
 | Completación prematura | El agente afirma haber terminado después de ediciones de código pero antes de una prueba ejecutable | Vincular la completación a la evidencia | `clean-state-checklist.md` |
 | Inicio frágil | Cada sesión reaprende cómo arrancar el proyecto | Estandarizar la configuración y verificación | `init.sh` |

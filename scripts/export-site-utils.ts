@@ -24,7 +24,7 @@ export const artifactsRoot = path.resolve(repoRoot, 'artifacts')
 export const pdfOutputRoot = path.resolve(artifactsRoot, 'pdfs')
 export const readmeScreenshotsRoot = path.resolve(docsRoot, 'public/screenshots/readme')
 export const docsBasePath = normalizeBasePath(
-  process.env.DOCS_BASE_PATH || '/learn-harness-engineering/'
+  process.env.DOCS_BASE_PATH || '/workshop-inkafarm/'
 )
 
 const MIME_TYPES: Record<string, string> = {

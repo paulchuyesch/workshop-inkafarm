@@ -1,4 +1,4 @@
-# claude-progress.md -- Session Log
+# chatgpt-progress.md -- Session Log
 
 ## Project 01: Baseline vs Minimal Harness
 

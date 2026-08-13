@@ -4,7 +4,7 @@
 
 The Knowledge Base is an Electron desktop application built with TypeScript and React. It provides document import, text indexing with chunking, content viewing, grounded question answering with citations, feedback collection, conversation history, and runtime observability through structured logging.
 
-This is the capstone project combining all features from the Learn Harness Engineering course.
+This is the capstone project combining all features from the Workshop InkaFarm course.
 
 ## Layer Diagram
 

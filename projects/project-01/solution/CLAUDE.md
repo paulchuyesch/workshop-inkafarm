@@ -1,4 +1,4 @@
-# CLAUDE.md -- Quick Reference for Claude Code
+# CLAUDE.md -- Quick Reference for ChatGPT Code
 
 @AGENTS.md
 

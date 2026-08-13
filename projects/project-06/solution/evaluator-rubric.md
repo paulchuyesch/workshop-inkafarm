@@ -36,7 +36,7 @@
 | CLAUDE.md | Yes | Complete | Quick reference with all 14 IPC channels |
 | feature_list.json | Yes | Complete | 15 features, all pass with evidence |
 | init.sh | Yes | Complete | 5-step verification including harness files |
-| claude-progress.md | Yes | Complete | Session log with benchmark results |
+| chatgpt-progress.md | Yes | Complete | Session log with benchmark results |
 | session-handoff.md | Yes | Complete | Full handoff with decisions and files modified |
 | clean-state-checklist.md | Yes | Complete | 30 check items across 7 categories |
 | evaluator-rubric.md | Yes | Complete | This file |

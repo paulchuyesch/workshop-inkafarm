@@ -1,4 +1,4 @@
-# claude-progress.md -- Session Log
+# chatgpt-progress.md -- Session Log
 
 ## Project 06: Runtime Observability and Debugging (Capstone)
 

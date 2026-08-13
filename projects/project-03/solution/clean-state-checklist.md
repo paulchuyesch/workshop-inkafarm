@@ -45,4 +45,4 @@
 - [x] docs/ARCHITECTURE.md updated with chunking pipeline and Q&A flow
 - [x] docs/PRODUCT.md updated with new features
 - [x] session-handoff.md filled out
-- [x] claude-progress.md has session logs
+- [x] chatgpt-progress.md has session logs

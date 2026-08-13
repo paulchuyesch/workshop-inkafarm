@@ -16,7 +16,7 @@
 
 # Skills
 
-This directory contains reusable AI agent skills for the Learn Harness Engineering project. Each skill is a self-contained prompt template that can be loaded by AI coding agents (Claude Code, Codex, Cursor, Windsurf, etc.) to perform specialized tasks.
+This directory contains reusable AI agent skills for the Workshop InkaFarm project. Each skill is a self-contained prompt template that can be loaded by AI coding agents (ChatGPT Code, Codex, Cursor, Windsurf, etc.) to perform specialized tasks.
 
 ## Available Skills
 
@@ -36,7 +36,7 @@ See [harness-creator/README.md](harness-creator/README.md) for full documentatio
 The `harness-creator` skill was developed using the **skill-creator** methodology — Anthropic's official meta-skill for creating, testing, and iterating on agent skills. The skill-creator provides a structured workflow (draft → test → evaluate → iterate) with built-in eval runners, graders, and a benchmark viewer.
 
 - **skill-creator source**: [anthropics/skills — skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
-- **Anthropic Claude Code skills docs**: [anthropics/claude-code — plugin-dev/skills](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills)
+- **Anthropic ChatGPT Code skills docs**: [anthropics/chatgpt-code — plugin-dev/skills](https://github.com/anthropics/chatgpt-code/tree/main/plugins/plugin-dev/skills)
 
 ## Directory Structure
 

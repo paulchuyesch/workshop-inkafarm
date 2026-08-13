@@ -1,8 +1,8 @@
-# CLAUDE.md -- Quick Reference for Claude Code
+# CLAUDE.md -- Quick Reference for ChatGPT Code
 
 ## Project Overview
 
-This is the capstone Electron + TypeScript + React knowledge base application with full observability, feedback, and benchmarking. It combines all features from the Learn Harness Engineering course.
+This is the capstone Electron + TypeScript + React knowledge base application with full observability, feedback, and benchmarking. It combines all features from the Workshop InkaFarm course.
 
 ## Build & Run
 

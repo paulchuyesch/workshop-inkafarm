@@ -9,7 +9,7 @@ sobre la velocidad.
 Al comienzo de cada sesión:
 
 1. Ejecuta `pwd` y confirma que estás en la raíz del repositorio esperada.
-2. Lee `claude-progress.md`.
+2. Lee `chatgpt-progress.md`.
 3. Lee `feature_list.json`.
 4. Revisa los commits recientes con `git log --oneline -5`.
 5. Ejecuta `./init.sh`.
@@ -29,7 +29,7 @@ que la verifiques o documentes por qué está bloqueada.
 ## Archivos Requeridos
 
 - `feature_list.json`
-- `claude-progress.md`
+- `chatgpt-progress.md`
 - `init.sh`
 - `session-handoff.md` cuando una entrega compacta es útil
 

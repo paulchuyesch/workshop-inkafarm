@@ -117,7 +117,7 @@ function validateProjectArtifacts(findings: Finding[]): void {
         }
       }
 
-      const expectedSolution = ["AGENTS.md", "feature_list.json", "init.sh", "claude-progress.md", "CLAUDE.md"]
+      const expectedSolution = ["AGENTS.md", "feature_list.json", "init.sh", "chatgpt-progress.md", "CLAUDE.md"]
       for (const file of expectedSolution) {
         const abs = path.join(solutionRoot, file)
         if (!existsSync(abs)) {
@@ -159,7 +159,7 @@ function validateProjectArtifacts(findings: Finding[]): void {
         "feature_list.json",
         "init.sh",
         "session-handoff.md",
-        "claude-progress.md",
+        "chatgpt-progress.md",
         "clean-state-checklist.md",
         "AGENTS.md",
       ]

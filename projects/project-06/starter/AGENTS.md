@@ -8,7 +8,7 @@
 
 ## Project Description
 
-This is the capstone project for the Learn Harness Engineering course. It combines all features from previous projects:
+This is the capstone project for the Workshop InkaFarm course. It combines all features from previous projects:
 - Document import, indexing, and Q&A
 - Conversation history view
 - Clean state management for testing

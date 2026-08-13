@@ -1,4 +1,4 @@
-# Calibración de Prompts
+# Concepciónbración de Prompts
 
 Las instrucciones raíz deben definir el marco operacional, no cada movimiento posible.
 

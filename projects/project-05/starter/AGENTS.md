@@ -57,7 +57,7 @@ Run `bash scripts/check-architecture.sh` before committing.
 - `scripts/check-architecture.sh`: boundary guard
 - `clean-state-checklist.md`: pre-commit repository health check
 
-Do not assume `feature_list.json`, `claude-progress.md`, `init.sh`, or
+Do not assume `feature_list.json`, `chatgpt-progress.md`, `init.sh`, or
 `session-handoff.md` exist in this starter.
 
 ## Definition Of Done

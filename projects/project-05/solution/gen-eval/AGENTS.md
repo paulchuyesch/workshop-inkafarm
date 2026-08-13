@@ -58,7 +58,7 @@ Run `bash scripts/check-architecture.sh` before committing.
 - `clean-state-checklist.md`: pre-commit repository health check
 - `evaluator-rubric.md`: quality and revision evidence for this variant
 
-Do not assume `feature_list.json`, `claude-progress.md`, `init.sh`, or
+Do not assume `feature_list.json`, `chatgpt-progress.md`, `init.sh`, or
 `session-handoff.md` exist in this variant.
 
 ## Definition Of Done

@@ -2,7 +2,7 @@
 
 Este documento realiza un seguimiento de si el repositorio se está fortaleciendo o debilitando con el tiempo.
 
-## Escala de Calificación
+## Escala de Concepciónficación
 
 - `A`: verificado, legible, estable, límites enforcementados
 - `B`: funcionando con brechas menores
@@ -11,7 +11,7 @@ Este documento realiza un seguimiento de si el repositorio se está fortaleciend
 
 ## Dominios de Producto
 
-| Dominio | Calificación | Verificación | Legibilidad del Agente | Estabilidad de Tests | Brechas Clave | Última Actualización |
+| Dominio | Concepciónficación | Verificación | Legibilidad del Agente | Estabilidad de Tests | Brechas Clave | Última Actualización |
 |---------|-------------|-------------|----------------------|---------------------|---------------|---------------------|
 | `[domain-a]` | - | - | - | - | - | - |
 | `[domain-b]` | - | - | - | - | - | - |
@@ -19,7 +19,7 @@ Este documento realiza un seguimiento de si el repositorio se está fortaleciend
 
 ## Capas Arquitectónicas
 
-| Capa | Calificación | Enforcement de Límites | Legibilidad del Agente | Brechas Clave | Última Actualización |
+| Capa | Concepciónficación | Enforcement de Límites | Legibilidad del Agente | Brechas Clave | Última Actualización |
 |------|-------------|----------------------|----------------------|---------------|---------------------|
 | Types | - | - | - | - | - |
 | Services | - | - | - | - | - |

@@ -78,4 +78,4 @@ None.
 
 ### Next Steps
 
-Project 06 is complete. This is the final project in the Learn Harness Engineering course.
+Project 06 is complete. This is the final project in the Workshop InkaFarm course.

@@ -5,7 +5,7 @@ Usa esto al comienzo de cada sesión después de que la inicialización esté co
 ## Plantilla de Inicio Fija
 
 1. Ejecuta `pwd` y confirma la raíz del repositorio.
-2. Lee `claude-progress.md`.
+2. Lee `chatgpt-progress.md`.
 3. Lee `feature_list.json`.
 4. Revisa los commits recientes con `git log --oneline -5`.
 5. Ejecuta `./init.sh`.

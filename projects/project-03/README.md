@@ -7,8 +7,8 @@ verification gates improve delivery accuracy across restarts.
 
 | Directory | Meaning |
 |------|------|
-| `starter/` | **Starting point**: based on the P2 solution, with document chunking, metadata extraction, index status, and grounded QA still to implement. It has a starter `feature_list.json`, but lacks the full restart harness (`init.sh`, `session-handoff.md`, `claude-progress.md`, clean-state checklist). |
-| `solution/` | **Reference implementation**: all features are implemented. AGENTS.md includes the "one feature at a time" strategy, and the repo adds restart/continuity artifacts (`init.sh`, `session-handoff.md`, `claude-progress.md`, `clean-state-checklist.md`). |
+| `starter/` | **Starting point**: based on the P2 solution, with document chunking, metadata extraction, index status, and grounded QA still to implement. It has a starter `feature_list.json`, but lacks the full restart harness (`init.sh`, `session-handoff.md`, `chatgpt-progress.md`, clean-state checklist). |
+| `solution/` | **Reference implementation**: all features are implemented. AGENTS.md includes the "one feature at a time" strategy, and the repo adds restart/continuity artifacts (`init.sh`, `session-handoff.md`, `chatgpt-progress.md`, `clean-state-checklist.md`). |
 
 ## How to Use
 
@@ -34,7 +34,7 @@ indexing and grounded QA work. Complete these items one at a time:
 | Metadata extraction | Document metadata is incomplete for indexing work | `src/services/document-service.ts`, `DocumentDetail.tsx`, item `metadata-extraction` |
 | Indexing status UI | Status bar needs indexed count / total chunks / status colors | `src/renderer/components/StatusBar.tsx`, `App.tsx`, item `indexing-status-ui` |
 | Grounded Q&A | QA must cite retrieved chunks with excerpts and confidence | `src/services/qa-service.ts`, `QuestionPanel.tsx`, item `grounded-qa` |
-| Continuity harness | Starter lacks final restart/handoff artifacts | `init.sh`, `session-handoff.md`, `claude-progress.md`, `clean-state-checklist.md` |
+| Continuity harness | Starter lacks final restart/handoff artifacts | `init.sh`, `session-handoff.md`, `chatgpt-progress.md`, `clean-state-checklist.md` |
 
 Do not treat this as "add any multi-session feature." The intended product
 slice is indexing plus citation-based QA, and the intended harness slice is

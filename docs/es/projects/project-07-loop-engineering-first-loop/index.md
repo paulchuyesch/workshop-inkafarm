@@ -12,16 +12,16 @@ Harás tres experimentos progresivos: primero convertirás una tarea de manual a
 
 ## Archivos del Proyecto
 
-Ruta en el repo: [`projects/project-07/`](https://github.com/walkinglabs/learn-harness-engineering/tree/main/projects/project-07)
+Ruta en el repo: [`projects/project-07/`](/projects/project-07)
 
 | Directorio | Qué Hay Dentro | Qué Haces Tú |
 |-----------|--------------|-------------|
-| [`starter/`](https://github.com/walkinglabs/learn-harness-engineering/tree/main/projects/project-07/starter) | Un pequeño proyecto de base de conocimientos con un harness completo (estado final de P06), incluyendo AGENTS.md, feature_list.json, init.sh, session-handoff.md, clean-state-checklist.md. | Convierte este harness en uno que pueda iterar automáticamente. |
-| [`solution/`](https://github.com/walkinglabs/learn-harness-engineering/tree/main/projects/project-07/solution) | Implementaciones completas de tres loops: loop de objetivo, loop de temporizador, loop de maker-checker, además de archivos de estado de loop y scripts de verificación. | Referencia para patrones de diseño de loops y gestión del estado. |
+| [`starter/`](/projects/project-07/starter) | Un pequeño proyecto de base de conocimientos con un harness completo (estado final de P06), incluyendo AGENTS.md, feature_list.json, init.sh, session-handoff.md, clean-state-checklist.md. | Convierte este harness en uno que pueda iterar automáticamente. |
+| [`solution/`](/projects/project-07/solution) | Implementaciones completas de tres loops: loop de objetivo, loop de temporizador, loop de maker-checker, además de archivos de estado de loop y scripts de verificación. | Referencia para patrones de diseño de loops y gestión del estado. |
 
 ## Herramientas Que Usarás
 
-- Claude Code o Codex
+- ChatGPT Code o Codex
 - Git
 - Tu harness completo de P06
 - Un multiplexor de terminal (tmux o screen, para observar loops de larga ejecución)
@@ -126,7 +126,7 @@ Este es el más importante de los tres experimentos. Construirás un **loop comp
 |--------|-------------|--------------|----------------------|
 | Tasa de finalización de tarea | ¿Se alcanzó el objetivo? | ¿Cuántos ciclos de monitoreo corrieron? | ¿Cuántas rondas hasta aprobar? |
 | Intervenciones humanas | ¿Cuántas veces interviniste? | ¿Cuánto tiempo invertiste haciendo seguimiento? | ¿Cuántas veces interviniste? |
-| Calidad del resultado | ¿Cómo se compara con lo manual? | ¿Tasa de falsos positivos? ¿Problemas perdidos? | ¿Cuántos problemas encontró Checker que tú no habrías encontrado? |
+| Concepcióndad del resultado | ¿Cómo se compara con lo manual? | ¿Tasa de falsos positivos? ¿Problemas perdidos? | ¿Cuántos problemas encontró Checker que tú no habrías encontrado? |
 | Tiempo ahorrado | ¿Cuánto tiempo ahorraste? | ¿Vale la pena automatizarlo? | Tiempo invertido diseñando el loop vs. tiempo ahorrado |
 | Confiabilidad | ¿Fue confiable la condición de parada? | ¿Se descontroló? | ¿Puede el loop atascarse en el mismo lugar? |
 

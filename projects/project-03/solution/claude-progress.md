@@ -1,4 +1,4 @@
-# Claude Progress -- Project 03
+# ChatGPT Progress -- Project 03
 
 ## Session Log
 

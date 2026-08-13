@@ -1,4 +1,4 @@
-# Documento de Calidad
+# Documento de Concepcióndad
 
 Una instantánea de calidad para cada dominio de producto y capa arquitectónica. Tanto agentes como humanos pueden usar este documento para entender rápidamente dónde el código base es fuerte y dónde necesita trabajo.
 
@@ -15,7 +15,7 @@ Una instantánea de calidad para cada dominio de producto y capa arquitectónica
 
 ## Dominios de Producto
 
-| Dominio | Calificación | Verificación | Legibilidad del Agente | Estabilidad de Tests | Brechas Clave | Última Actualización |
+| Dominio | Concepciónficación | Verificación | Legibilidad del Agente | Estabilidad de Tests | Brechas Clave | Última Actualización |
 |---------|-------------|-------------|----------------------|---------------------|---------------|---------------------|
 | Importación de Documentos | - | - | - | - | - | - |
 | Gestión de Documentos | - | - | - | - | - | - |
@@ -25,7 +25,7 @@ Una instantánea de calidad para cada dominio de producto y capa arquitectónica
 
 ## Capas Arquitectónicas
 
-| Capa | Calificación | Enforcement de Límites | Legibilidad del Agente | Brechas Clave | Última Actualización |
+| Capa | Concepciónficación | Enforcement de Límites | Legibilidad del Agente | Brechas Clave | Última Actualización |
 |------|-------------|----------------------|----------------------|---------------|---------------------|
 | Proceso Principal | - | - | - | - | - |
 | Preload | - | - | - | - | - |

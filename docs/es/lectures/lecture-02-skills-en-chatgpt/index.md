@@ -89,7 +89,7 @@ Reglas de diseño que evitan que ChatGPT tome decisiones malas aunque técnicame
 
 ### Cómo instalar el skill en ChatGPT
 
-📁 **[Google Drive → InkaFarm Skill](https://drive.google.com/drive/folders/1NuKhOcnYxhBvUFc40yOvqutquvBFOuCW?usp=share_link)** — el archivo `inkafarm-design-system.zip` está en la misma carpeta que los datasets.
+📁 **[Google Drive → InkaFarm Skill](https://drive.google.com/drive/folders/1zpFqNCm4QHmUOSWySrQSxLuXEW-DSaj9?usp=sharing)** — el archivo `inkafarm-design-system.zip` está en la misma carpeta que los datasets.
 
 **Paso 1 — Descarga el archivo .zip**  
 Descarga `inkafarm-design-system.zip` a tu computadora.

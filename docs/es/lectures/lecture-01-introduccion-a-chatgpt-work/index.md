@@ -34,7 +34,7 @@ Qué llama tu atención o qué cambiarías si fueras mi coach de productividad
 
 **Datos sintéticos enriquecidos** cubriendo junio 2025 – mayo 2026, Perú y Chile, en USD.
 
-📁 **Descarga la carpeta completa aquí:** [Google Drive → InkaFarm Data](https://drive.google.com/drive/folders/1NuKhOcnYxhBvUFc40yOvqutquvBFOuCW?usp=share_link)
+📁 **Descarga la carpeta completa aquí:** [Google Drive → InkaFarm Data](https://drive.google.com/drive/folders/1zpFqNCm4QHmUOSWySrQSxLuXEW-DSaj9?usp=sharing)
 
 Elige el dataset que corresponda a tu área — o cruza varios.
 

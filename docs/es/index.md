@@ -20,7 +20,6 @@ sidebar: false
     </p>
     <div class="hero-actions">
       <a href="./lectures/lecture-01-introduccion-a-chatgpt-work/" class="btn-primary">Iniciar Taller</a>
-      <a href="./projects/" class="btn-secondary">Ver Proyectos</a>
     </div>
   </div>
 </div>
@@ -29,10 +28,6 @@ sidebar: false
   <div class="feature-glass">
     <h3><span class="icon">⏱️</span> 10 pasos guiados</h3>
     <p>Aprende paso a paso con lecciones diseñadas para una máxima retención.</p>
-  </div>
-  <div class="feature-glass">
-    <h3><span class="icon">🎬</span> Video Interactivo</h3>
-    <p>Contenido multimedia inmersivo que te acompaña en toda la implementación.</p>
   </div>
   <div class="feature-glass">
     <h3><span class="icon">💡</span> Spec-Driven</h3>
